@@ -206,15 +206,7 @@ button {
   z-index: 43;
   overflow: hidden;
 }
-.line-4 {
-  position: relative;
-  width: 1000.002px;
-  height: 1.952px;
-  margin: -1px 0 0 0px;
-  background:blue;
-  background-size: cover;
-  z-index: 41;
-}
+
 .trabajos-destacados-5 {
   position: relative;
   width: 1000px;
@@ -499,15 +491,7 @@ button {
   white-space: nowrap;
   z-index: 61;
 }
-.line-section {
-  position: relative;
-  width: 1000.002px;
-  height: 1.952px;
-  margin: 43px 0 0 0px;
-  background: blue;
-  background-size: cover;
-  z-index: 42;
-}
+
 .blog-posts {
   display: flex;
   align-items: flex-start;
@@ -811,7 +795,7 @@ button {
   width: 320.641px;
   height: 28px;
   color: #000000;
-  font-family: Roboto, var(--default-font-family);
+  font-family: Roboto, var;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -838,7 +822,7 @@ button {
   width: 320.641px;
   height: 24px;
   color: rgba(0, 0, 0, 0.5);
-  font-family: Roboto, var(--default-font-family);
+  font-family: Roboto, var;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -855,7 +839,7 @@ button {
   width: 320.641px;
   height: 24px;
   color: rgba(0, 0, 0, 0.5);
-  font-family: Roboto, var(--default-font-family);
+  font-family: Roboto, var;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -872,7 +856,7 @@ button {
   width: 320.641px;
   height: 24px;
   color: rgba(0, 0, 0, 0.5);
-  font-family: Roboto, var(--default-font-family);
+  font-family: Roboto, var;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -891,13 +875,19 @@ button {
   z-index: 1;
   box-sizing: content-box;
 }
-.foot {
-  position: absolute;
-  width: 1430px;
-  height: 253px;
-  top: 2629px;
-  left: 0;
-  background:black;
-  background-size: cover;
-  z-index: 6;
+.rights-reserved {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 660px;
+  height: 67px;
+  margin: 89.815px 0 0 390px;
+  color: #000000;
+  font-family: Roboto, var;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  z-index: 39;
 }
